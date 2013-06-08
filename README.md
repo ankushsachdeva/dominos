@@ -2,6 +2,7 @@ dominos
 =======
 
 Fetches coupons for Dominos Pizza (India)
+(Generates from http://pizzaonline.dominos.co.in/slot-machine/ )
 
 Run the python script
 
