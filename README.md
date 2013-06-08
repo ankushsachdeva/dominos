@@ -1,7 +1,7 @@
 dominos
 =======
 
-Fetches coupons for Dominos Pizza
+Fetches coupons for Dominos Pizza (India)
 
 Run the python script
 
