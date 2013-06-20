@@ -12,8 +12,12 @@ def reload():
     global cj,opener_for_reload,new_session
     url="http://pizzaonline.dominos.co.in/slot-machine/"
     opener_for_reload.open(url)    
+    old_session=new_session
     for cookie in cj:
         new_session=cookie.value
+    if(new_session==old_session):
+        print "Slot machine is currently down on Dominos server.\nCheck if http://pizzaonline.dominos.co.in/slot-machine/ is working in your browser.\nIf yes,report issue on github."
+        return
     retry()
 
 
