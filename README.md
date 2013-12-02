@@ -1,3 +1,6 @@
+Note: As of October 2013 this script no longer works
+
+
 dominos
 =======
 
